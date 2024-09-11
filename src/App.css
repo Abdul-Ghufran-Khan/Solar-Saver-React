@@ -1,0 +1,15 @@
+:root {
+    --container-color: #1a1e21;
+    --second-color: #f87d2a;
+    --text-color: #172317;
+    --bg-color: #ffffff;
+}
+
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+.map img{
+    width: 100%;
+}
